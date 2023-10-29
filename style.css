@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Patrick+Hand&family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*  {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  min-height: 100%;
+  background-image: url("imagens/2206.jpg");
+	background-size: cover;
+  color: #000000;
+}
+
+h1 {
+  color: #000000;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #000000;
+  font-size: 60px;
+}
+
+.td1 {
+  border: none;
+}
+
+table {
+  
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+
+}
+
+
+td {
+   text-align: center;  
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+td:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.text-center {text-align:center;}
+
+/*CORES DE FUNDO*/
+.nao_metais1 {
+  background-color: #3b56a6;
+}
+
+.nao_metais {
+  background-color: #38b66b;
+}
+
+.gases_nobres {
+  background-color: #d4ba0e;
+}
+
+.metais_alcalinos {
+  background-color: #7b5ba7; 
+}
+
+.metais_alcalino-terrosos {
+  background-color: #f27eb2; 
+}
+
+.semimetais {
+  background-color: #38b66b;
+}
+
+.halogenios {
+  background-color: #70cbeb;
+}
+
+.outros_metais {
+  background-color: #6bc6ef; 
+}
+
+.metais_de_transicao {
+  background-color: #f58132; 
+}
+
+.Lantanideos {
+  background-color: #ee3432; 
+}
+
+.Actinidios {
+  background-color: #a62439; 
+}
+
+.td1 {
+  width:60px;
+  height:60px;
+}
+
+.td2 {
+  width:60px;
+  height:60px;
+  position: relative; /* Para que a imagem não saia fora do link */
+  padding: 5px;
+  border: 1px #ddd;
+  text-decoration: none;
+ 
+}
+
+.td2 span {
+  display:none; /* Aqui você define que todo SPAN que estiver dentro de um A estará invisível */
+}
+
+.td2:hover span {
+  display: block; /* Tranforma o SPAN em um elemento do tipo bloco */
+  position: absolute; /* Para você poder posicionar a vontade, sem quebrar o layour em volta */
+  top: 0px; /* Para ficar na mesma altura do link */
+  left: 100%; /* Empurra a imagem para fora do link, ficando a lado do mesmo */
+  
+}
+
+.td3 {
+  width:60px;
+  height:60px;
+  position: relative; /* Para que a imagem não saia fora do link */
+  padding: 5px;
+  border: 1px #ddd;
+  text-decoration: none;
+ 
+}
+
+.td3 span {
+  display:none; /* Aqui você define que todo SPAN que estiver dentro de um A estará invisível */
+}
+
+.td3:hover span {
+  display: block; /* Tranforma o SPAN em um elemento do tipo bloco */
+  position: absolute; /* Para você poder posicionar a vontade, sem quebrar o layour em volta */
+  top: 0px; /* Para ficar na mesma altura do link */
+  right: 100%; /* Empurra a imagem para fora do link, ficando a lado do mesmo */
+  
+}
+.centro{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+ }
+ .container {
+   margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+ 
+footer {
+  font-family: "Nuosu SIL", serif;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+}
